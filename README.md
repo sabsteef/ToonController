@@ -1,9 +1,9 @@
 # ToonController
-Control your hacked (rooted) Toon Remotely from your Phone.
+Control your hacked (rooted) Toon remotely from your Phone.
 
-First of, all the credits goes to Sander Jonk (https://www.github.com/jonkootje). He made the initial app. 
+First of, all the credit goes to Sander Jonk (https://www.github.com/jonkootje). He made the initial app. 
 I only wanted some aditional features. To look like the original Toon app.
-Second, I made these changes primary for my self. so if its does not work for you...no refunds ;-)
+Second, I made these changes primary for my self. So if it does not work for you...no refunds ;-)
 
 ## So what's been added:
 - Logo Toon ( when added on the home screen)
