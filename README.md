@@ -7,7 +7,7 @@ I only wanted some aditional features. to look like the original Phone app.
 ## So what's been added:
 - Logo Toon ( when added on the home screen)
 
-<img src="https://github.com/sabsteef/ToonController/blob/master/Home%20Screen.jpeg" width="100"  alt="Toon Remote Controller on Home Screen">
+<img src="https://github.com/sabsteef/ToonController/blob/master/Home%20Screen.jpeg" width="200"  alt="Toon Remote Controller on Home Screen">
 
 - add aditional Tab with:
   - Power Now
@@ -31,6 +31,13 @@ $ADRESS = '0.0.0.0'; // LOCAL IP ADRESS OF TOON SERVER
 $VERSION = '4.9'; // TOON VERSION (SUPPORTED: 4.8 / 4.9)
 // END SETTINGS /\/\/\/\/\/\/\/\
 ```
-3a. if you want to control your Toon From the internet open a port form you firewall to your website. (NOT TO YOUR TOON)
-4. On your Phone go to your website URL and enter "Your complex Password" :P
-5. create a short cut to your home screen. for more info hoe to do this see here (https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/)
+4. if you want to control your Toon From the internet open a port form you firewall to your website. (NOT TO YOUR TOON)
+5. On your Phone go to your website URL and enter "Your complex Password" :P
+6. create a short cut to your home screen. for more info hoe to do this see here (https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/)
+
+## whats Next?!
+Things i want to add:
+
+- Add Toon Zon
+- Add Hue Control
+- add API on the Toon. To control toon from an external website securly.
