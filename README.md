@@ -1,5 +1,5 @@
 # ToonController
-Control your hacked Toon Remotely from your Phone.
+Control your hacked (rooted) Toon Remotely from your Phone.
 
 First of, all the credits goes to Sander Jonk (https://www.github.com/jonkootje). He made the initial app. 
 I only wanted some aditional features. To look like the original Toon app.
