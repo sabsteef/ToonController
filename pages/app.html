@@ -1,0 +1,111 @@
+
+
+<div id="settings">
+    <div class="section">
+        <h3>Settings</h3>
+        <form id="settings_form" style="margin-bottom: 0px;" method="" action="javascript:toon.saveSettings(`#settings_form`)">
+            <input type="text" class="niceinput" name="endpoint" placeholder="API Endpoint*">
+            <input type="number" step="1" class="niceinput" name="port" placeholder="Port (default: 80)">
+            <input type="number" class="niceinput" name="refreshrate" placeholder="Refresh interval (default: 10 Sec)" min="1" max="1000" step="1">
+            <div style="text-align: center; margin-top: 16px;">
+                <input type="submit" class="submitbtn" value="Verbinden">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="main" class="block">
+      <div class="section" style="text-align: center">
+        <img class="fireicon" id="burner" src="img/icon-heating-na.svg">
+      </div>
+      <div class="section">
+          <div class="monitor">
+            <div class="temp_left tempmonitor_parent">
+                <span class="tempmonitor" id="current_temp">0</span>
+                <span class="comminguptemp" id="target_temp">0</span>
+            </div>
+            <div class="temp_right">
+                <button class="tempchange increase"></button>
+                <button class="tempchange decrease"></button>
+            </div>
+          </div>
+       </div>
+<div class="tab">
+             <h1></h1>
+  <button class="tablinks" onclick="openTab(event, 'Programma')" id="defaultOpen">Programma</button>
+  <button class="tablinks" onclick="openTab(event, 'Verbruik')">Verbruik</button>
+
+
+   <div id="Programma" class="tabcontent">
+		<div class="section">
+			<div class="nextevent">
+				<span id="comming">Not connected</span>
+				<div class="togglebutton" id="toggleprogram"></div>
+			</div>
+		</div>
+		<div class="section">
+        <div class="programbtn act_away" data-state="away">Weg</div>
+        <div class="programbtn act_home" data-state="home">Thuis</div>
+        <div class="programbtn act_sleep" data-state="sleep">Slapen</div>
+        <div class="programbtn act_comfort" data-state="comfort">Comfort</div>
+		</div>
+</div>
+
+<div id="Verbruik" class="tabcontent">
+  <div class="section">
+
+    </div>
+
+		 <div class="meters">
+       <h1></h1>
+       <span class="stroomnu" id="stroomnu">Stroom nu</span>
+  <!-- start with progress -->
+
+
+  <div class="progressBar">
+    <svg
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 40 76"
+        enable-background="new 0 0 40 76"
+       xml:space="preserve">
+     <path id="path10"d="M38 4H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path9" d="M38 12H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path8" d="M38 20H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path7" d="M38 28H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path6" d="M38 36H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path5" d="M38 44H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path4" d="M38 52H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path3" d="M38 60H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path2" d="M38 68H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+     <path id="path1" d="M38 76H2a2 2 0 0 1 0-4h36a2 2 0 0 1 0 4" fill="#94989e"/>
+    </svg>
+   </div>
+  <span class="wattNow" id="PowerWattNow"> 0 Watt</span>
+  <span class="gasnu" id="gasnu">Gas Vandaag</span>
+<div class="progressBarGas">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 76"><g fill="none" fill-rule="evenodd">
+    <g fill="none" fill-rule="evenodd">
+      <path id="grey1"    fill="#DCDCDC" d="M40 36V4c0-2.208-1.792-4-4-4H4C1.792 0 0 1.792 0 4v32h40z"/>
+      <path id="grey2"    fill="#DCDCDC" d="M0 40v32c0 2.208 1.792 4 4 4h32c2.208 0 4-1.792  4-4V40H0z"/>
+      <path id="lightBlue" fill="#DCDCDC"   d="M0 40v32c0 2.208 1.792 4 4 4h32c2.208 0 4-1.792  4-4V40H0z"/>
+      <path id="lightBluefull" fill="#DCDCDC"   d="M0 40v32c0 2.208 1.792 4 4 4h32c2.208 0 4-1.792  4-4V54H0z"/>
+      <path id="darkBluefull"fill="#DCDCDC" d="M0 36h40V12H0z"/>
+      <path id="darkBlue"fill="#DCDCDC" d="M0 36h40V24H0z"/>
+    </g>
+  </svg>
+</div>
+      <span class="gasnow" id="GasToday"> 0 m3</span>
+ </div>
+</div>
+</div>
+ <div class="section connection loading">
+   <div class="section">
+     </div>
+             <h1></h1>
+        <span class="connection_status">Loading...</span>
+    </div>
+
+</div>
