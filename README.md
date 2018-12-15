@@ -4,7 +4,7 @@ Control your hacked Toon Remotely from your Phone.
 First of, all the credits goes to Sander Jonk (https://www.github.com/jonkootje). He made the initional site. 
 I only wanted some aditional features. to look like the original Phone app.
 
-###### So what's been added:
+## So what's been added:
 - Logo Toon ( when added on the home screen)
 
 <img src="https://github.com/sabsteef/ToonController/blob/master/Home%20Screen.jpeg" width="100"  alt="Toon Remote Controller on Home Screen">
@@ -13,13 +13,13 @@ I only wanted some aditional features. to look like the original Phone app.
   - Power Now
   - Gas today.
 
-###### how does it look:
+## how does it look:
 
 <img src="https://github.com/sabsteef/ToonController/blob/master/ToonControlFirstTab.png" width="300" align="left" alt="Toon Remote Controller Screen 1">
 
 <img src="https://github.com/sabsteef/ToonController/blob/master/ToonControlSecondTab.png" width="300" align="left" alt="Toon Remote Controller Screen 2">
 
-###### how do you in stall it:
+## how do you in stall it:
 1. Upload the software to a (local) website.
 2. go to /php/api.php
 3. change the values to fit your environment.
